@@ -8,8 +8,6 @@ header {
   width: auto;
   height: 96px;
   margin: 0;
-  background: url(../img/BG.png);
-  background-repeat: no-repeat;
   /*background-size: cover;*/ }
 
 #nav {
@@ -40,8 +38,6 @@ header {
     #nav #nav-buttons img {
       margin-right: -19px; }
 
-
-
 main {
   padding: 0 30px; }
 
@@ -49,7 +45,7 @@ main {
   background-color: #fff;
   text-align: center;
   margin-top: ;
-  padding: 0 10px;
+  padding: 0 20px;
   box-sizing: border-box;
   max-width: 1380px;
   width: auto;
@@ -126,7 +122,7 @@ main {
   /*padding: 161px 104px 113px 104px;*/
   box-sizing: border-box;
   display: grid;
-  grid-template: 201px / 1fr 1fr 1fr; }
+  grid-template: 300px / 1fr 1fr 1fr; }
 
   #feature-grid h3 {
     font-family: Roboto;
