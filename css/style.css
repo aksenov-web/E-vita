@@ -94,15 +94,15 @@ main {
   border-radius: 20px;
 }
 
-#feature-col-1:hover {
+#feature-col-1:active {
   transform: rotateY(180deg);
 }
 
-#feature-col-2:hover {
+#feature-col-2:active {
   transform: rotateY(180deg);
 }
 
-#feature-col-3:hover {
+#feature-col-3:active {
   transform: rotateY(180deg);
 }
 
