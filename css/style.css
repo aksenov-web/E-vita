@@ -17,25 +17,31 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 37px 11% 0 10%; }
-  #nav #menu-button {
+
+#nav #menu-button {
     display: none; }
-  #nav a {
+
+#nav a {
     color: #fff;
     text-decoration: none; }
-  #nav #logo {
+
+#nav #logo {
     font-family: Roboto;
     font-weight: 300;
     font-size: 18px;
     line-height: 21px; }
-  #nav #nav-buttons {
+
+#nav #nav-buttons {
     display: flex;
     align-items: center;
     font-family: Roboto;
     font-size: 12px;
     line-height: 14px; }
-    #nav #nav-buttons a {
+
+#nav #nav-buttons a {
       margin: 0 0 0 24px; }
-    #nav #nav-buttons img {
+
+#nav #nav-buttons img {
       margin-right: -19px; }
 
 main {
@@ -53,7 +59,8 @@ main {
   height: 2045px;
   box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.14), 0px 8px 10px rgba(0, 0, 0, 0.2);
   border-radius: 6px; }
-  .main h2 {
+
+.main h2 {
     padding-top: 95px;
     margin: 0px;
     text-align: center;
@@ -61,7 +68,8 @@ main {
     font-size: 36.4px;
     line-height: 43px;
     color: #3C4858; }
-  .main .Center-text {
+
+.main .Center-text {
     margin: 38px auto;
     max-width: 753px;
     width: auto;
@@ -94,15 +102,15 @@ main {
   border-radius: 20px;
 }
 
-#feature-col-1:active {
+#feature-col-1:hover {
   transform: rotateY(180deg);
 }
 
-#feature-col-2:active {
+#feature-col-2:hover {
   transform: rotateY(180deg);
 }
 
-#feature-col-3:active {
+#feature-col-3:hover {
   transform: rotateY(180deg);
 }
 
@@ -115,7 +123,7 @@ main {
 
 #feature-col-1 {
     transform-style: preserve-3d;
-    transition: all 1s ease;
+    transition: all 2.0s ease;
     margin: 0 10px 0 10px;
     box-sizing: border-box;
     text-align: center;
@@ -124,7 +132,7 @@ main {
 
 #feature-col-2 {
     transform-style: preserve-3d;
-    transition: all 1s ease;
+    transition: all 1.0s ease;
     margin: 0 10px 0 10px;
     box-sizing: border-box;
     text-align: center;
@@ -133,7 +141,7 @@ main {
 
 #feature-col-3 {
     transform-style: preserve-3d;
-    transition: all 1s ease;
+    transition: all 1.0s ease;
     margin: 0 10px 0 10px;
     box-sizing: border-box;
     text-align: center;
@@ -307,7 +315,7 @@ main {
     line-height: 14px; }
 
 #send-button:hover {
-  box-shadow: 0px 5px 14px rgba(156, 39, 176, 0.42), 0px 3px 10px rgba(0, 0, 0, 0.12); }
+  box-shadow: 0px 5px 14px #0ABAB5, 0px 3px 10px rgba(0, 0, 0, 0.12); }
 
 footer {
   max-width: 1440px;
